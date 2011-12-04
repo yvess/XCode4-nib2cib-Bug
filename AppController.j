@@ -57,6 +57,7 @@
 
 - (void)awakeFromCib
 {
+    [theWindow setFullPlatformWindow:YES];
 }
 
 @end
